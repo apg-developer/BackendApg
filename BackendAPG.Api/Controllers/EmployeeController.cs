@@ -7,5 +7,6 @@ namespace BackendAPG.Api.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+
     }
 }

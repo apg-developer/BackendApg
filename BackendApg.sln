@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAPG.Api", "BackendAPG.Api\BackendAPG.Api.csproj", "{627CFB70-FF9D-40C1-8BCD-C4DF9246C995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendAPG.Api", "BackendAPG.Api\BackendAPG.Api.csproj", "{627CFB70-FF9D-40C1-8BCD-C4DF9246C995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendApg.Entities", "BackendApg.Entities\BackendApg.Entities.csproj", "{875C1036-F710-4C4E-8557-566FEF011474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendApg.Entities", "BackendApg.Entities\BackendApg.Entities.csproj", "{875C1036-F710-4C4E-8557-566FEF011474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendApg.Data", "BackendApg.Data\BackendApg.Data.csproj", "{EC6B3A85-47FF-4FED-9988-A41F7C3A2D19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendApg.Data", "BackendApg.Data\BackendApg.Data.csproj", "{EC6B3A85-47FF-4FED-9988-A41F7C3A2D19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendApg.Business", "BackendApg.Business\BackendApg.Business.csproj", "{F8FC19FE-AB82-45A3-B840-4F457C72E810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendApg.Business", "BackendApg.Business\BackendApg.Business.csproj", "{F8FC19FE-AB82-45A3-B840-4F457C72E810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendApg.Unified.Tests", "BackendApg.Unified.Tests\BackendApg.Unified.Tests.csproj", "{BB7DD299-F9E2-4736-A1CB-4F17628B7335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F8FC19FE-AB82-45A3-B840-4F457C72E810}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8FC19FE-AB82-45A3-B840-4F457C72E810}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8FC19FE-AB82-45A3-B840-4F457C72E810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7DD299-F9E2-4736-A1CB-4F17628B7335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7DD299-F9E2-4736-A1CB-4F17628B7335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7DD299-F9E2-4736-A1CB-4F17628B7335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7DD299-F9E2-4736-A1CB-4F17628B7335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
