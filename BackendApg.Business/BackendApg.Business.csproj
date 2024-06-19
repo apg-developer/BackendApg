@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BackendApg.Data\BackendApg.Data.csproj" />
+    <ProjectReference Include="..\BackendApg.Entities\BackendApg.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BackendApg.Business\BackendApg.Business.csproj" />
+    <ProjectReference Include="..\BackendApg.Data\BackendApg.Data.csproj" />
+    <ProjectReference Include="..\BackendApg.Entities\BackendApg.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

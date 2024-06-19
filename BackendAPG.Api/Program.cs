@@ -1,4 +1,12 @@
+using BackendApg.Business;
+using BackendApg.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Dependencies injection
+
+builder.Services.AddSingleton<ISqlMockRepository, SqlMockRepository>();
+builder.Services.AddScoped<IEmployeeBusiness, EmployeeBusiness>();
 
 // Add services to the container.
 
