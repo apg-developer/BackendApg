@@ -7,6 +7,10 @@ namespace BackendAPG.Api.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-
+        [HttpGet]
+        public ActionResult<string> Get()
+        {
+            return ("hello world");
+        }
     }
 }
